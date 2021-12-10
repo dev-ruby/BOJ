@@ -1,5 +1,6 @@
 # 1316 - 그룹 단어 체커
 
+
 def solve():
     N = int(input())
     count = 0
@@ -17,11 +18,12 @@ def solve():
                     alphabet.remove(word[w])
                     continue
                 else:
-                    if word[w-1] == word[w]:
+                    if word[w - 1] == word[w]:
                         continue
                     else:
                         cur = 0
-        count+=cur
+        count += cur
     print(count)
+
 
 solve()

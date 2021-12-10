@@ -1,5 +1,6 @@
 # 1157 - 단어 공부
 
+
 def solve():
     word = input().upper()
     alphabet = "abcdefghijklmnopqrstuvwxyz".upper()
@@ -13,5 +14,6 @@ def solve():
             count = word.count(a)
             M = a
     print(M)
+
 
 solve()

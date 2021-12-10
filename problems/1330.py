@@ -1,5 +1,6 @@
 # 1330 - 두 수 비교하기
 
+
 def solve():
     a, b = map(int, input().split())
     if a == b:
@@ -8,5 +9,6 @@ def solve():
         print("<")
     elif a > b:
         print(">")
+
 
 solve()

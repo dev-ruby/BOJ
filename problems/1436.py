@@ -1,5 +1,6 @@
 # 1436 - 영화감독 숌
 
+
 def solve():
     n = int(input())
     count = 0
@@ -13,5 +14,6 @@ def solve():
         six_n += 1
 
     print(six_n)
+
 
 solve()
