@@ -4,4 +4,5 @@
 def solve():
     print(sum(map(int, (input(), input()))))
 
+
 solve()

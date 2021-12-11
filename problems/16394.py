@@ -2,6 +2,7 @@
 
 
 def solve():
-    print(int(input())-1946)
+    print(int(input()) - 1946)
+
 
 solve()

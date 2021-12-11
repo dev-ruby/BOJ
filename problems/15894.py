@@ -2,6 +2,7 @@
 
 
 def solve():
-    print(int(input())*4)
+    print(int(input()) * 4)
+
 
 solve()

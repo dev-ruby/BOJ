@@ -6,6 +6,7 @@ def solve():
     for _ in range(9):
         n_list.append(int(input()))
     print(max(n_list))
-    print(n_list.index(max(n_list))+1)
+    print(n_list.index(max(n_list)) + 1)
+
 
 solve()
