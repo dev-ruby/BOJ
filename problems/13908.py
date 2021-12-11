@@ -9,7 +9,8 @@ def C(n, r):
 
 def solve():
     N, M = map(int, input().split())
-    n_list = map(int, input().split())
+    if M != 0:
+        n_list = map(int, input().split())
     count = 10
     n = 0
     for i in range(M + 1):
