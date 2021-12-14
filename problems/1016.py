@@ -9,7 +9,7 @@ def get_square_number(m, M):
 
     i = 2
 
-    while i ** 2 < M:
+    while i ** 2 <= M:
         s = i ** 2
         mod = 0 if m % s == 0 else 1
         j = m // s + mod
