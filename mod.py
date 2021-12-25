@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import bs4
+import clipboard
 import os
 import requests
 import shutil
@@ -70,6 +71,10 @@ while True:
                 shutil.move(path, new_path)
                 os.system("cls")
                 break
+            elif command == "copy":
+                with open(path, mode="r", encoding="utf-8") as fp:
+                    data = fp.read()
+                clipboard.copy(data)
 
             print("\n\n\n\n\n\n\n\n\n")
 
