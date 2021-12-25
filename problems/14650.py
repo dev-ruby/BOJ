@@ -1,8 +1,5 @@
 # 14650 - 걷다보니 신천역 삼 (Small)
 
-import itertools
-
-
 def solve():
     N = int(input())
     if N == 1:
